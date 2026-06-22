@@ -181,8 +181,18 @@
       }
 
       .info-list li {
-        grid-template-columns: 1fr;
-        gap: 0;
+        display: block;
+        margin-bottom: 14px;
+      }
+
+      .info-list .label {
+        display: block;
+        margin-bottom: 2px;
+      }
+
+      .info-list span:last-child {
+        display: block;
+        word-break: break-word;
       }
     }
   </style>
@@ -239,16 +249,16 @@
       <h2>関連</h2>
       <ul class="info-list">
         <li>
+          <span class="label">所属</span>
+          <span><a href="https://mototakelab.github.io/" target="_blank">一橋大学大学院 ソーシャル・データサイエンス研究科 本武研究室</a></span>
+        </li>
+        <li>
           <span class="label">連絡先</span>
           <span>準備中</span>
         </li>
         <li>
           <span class="label">GitHub</span>
           <span><a href="https://github.com/klmn4117" target="_blank">GitHubプロフィールはこちら</a></span>
-        </li>
-        <li>
-          <span class="label">所属</span>
-          <span><a href="https://mototakelab.github.io/" target="_blank">一橋大学大学院 ソーシャル・データサイエンス研究科 本武研究室</a></span>
         </li>
       </ul>
     </section>
